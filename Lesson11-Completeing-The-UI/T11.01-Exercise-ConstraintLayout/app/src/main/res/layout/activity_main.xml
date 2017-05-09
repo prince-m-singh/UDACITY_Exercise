@@ -63,11 +63,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="@string/passenger_name"
+        tools:text="@string/passenger_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@color/colorPrimary"
-        app:layout_constraintLeft_toLeftOf="@+id/textViewPassengerLabel"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPassengerLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPassengerLabel"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewPassengerLabel" />
 
     <!-- TODO (8) Create an ImageView for the rightRectangle -->
 
